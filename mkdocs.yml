@@ -1,0 +1,32 @@
+site_name: Fair Faith JP
+site_url: https://fair-faith.org
+site_description: 信仰に確かな安全と責任を。現代社会のバグから身を守るための信仰安全基準プロトコル。
+site_author: Fair Faith Project
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: light blue
+    - scheme: slate 
+      primary: indigo
+      accent: light blue
+
+nav:
+  - 3原則 (Standards): index.md
+  - 使い方 (Shield): usage.md
+  - 運営方針 (About): about.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+copyright: Copyright &copy; 2025 Fair Faith Project
