@@ -3,9 +3,11 @@ site_url: https://fair-faith.org
 site_description: 信仰に確かな安全と責任を。現代社会のバグから身を守るための信仰安全基準プロトコル。
 site_author: Fair Faith Project
 
+# GitHubリポジトリ設定
 repo_url: https://github.com/fair-faith-project/fair-faith-project.github.io
 repo_name: Fair Faith Project
 
+# テーマ設定
 theme:
   name: material
   language: ja
@@ -17,21 +19,84 @@ theme:
     - search.suggest
     - search.highlight
   palette:
+    # ライトモード
     - scheme: default
       primary: indigo
       accent: light blue
-    - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: ダークモードに切り替え
+    # ダークモード
+    - scheme: slate
       primary: indigo
       accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: ライトモードに切り替え
 
+# メニュー構成
 nav:
   - 3原則 (Standards): index.md
   - 使い方 (Shield): usage.md
   - 運営方針 (About): about.md
+  - お問い合わせ (Contact): contact.md
 
+# マークダウン拡張機能
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
-copyright: Copyright &copy; 2025 Fair Faith Project
+# プラグイン（OGP画像自動生成など）
+plugins:
+  - search
+  - social
+
+# 追加機能（アクセス解析・SNS）
+extra:
+  # Google Analytics 4
+  analytics:
+    provider: google
+    property: G-VLDWFN9D8P
+
+  # フッターのSNSアイコン
+  social:
+    # 1. Note
+    - icon: fontawesome/solid/pen-nib
+      link: https://note.com/fairfaithjp
+      name: Note
+
+    # 2. X (Twitter)
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/fairfaithjp
+      name: X (Twitter)
+
+    # 3. Instagram
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/fairfaithjp/
+      name: Instagram
+
+    # 4. Threads
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.com/@fairfaithjp
+      name: Threads
+
+    # 5. YouTube
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@FairFaithJP
+      name: YouTube
+
+    # 6. TikTok
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@fairfaithjp
+      name: TikTok
+
+# フッターの著作権とプライバシーポリシー
+copyright: >
+  Copyright &copy; 2025 Fair Faith Project
+  <br>
+  <a href="privacy/">プライバシーポリシー</a>
