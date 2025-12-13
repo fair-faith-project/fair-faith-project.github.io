@@ -38,7 +38,8 @@ theme:
 nav:
   - 3原則 (Standards): index.md
   - 使い方 (Shield): usage.md
-  - よくある質問 (Q&A): faq.md      # ← 追加しました
+  - よくある質問 (Q&A): faq.md
+  - ダウンロード (Tools): download.md
   - 運営方針 (About): about.md
   - お問い合わせ (Contact): contact.md
 
