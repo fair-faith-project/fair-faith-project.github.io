@@ -6,6 +6,8 @@ site_author: Fair Faith Project
 theme:
   name: material
   language: ja
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   features:
     - navigation.tabs
     - navigation.top
