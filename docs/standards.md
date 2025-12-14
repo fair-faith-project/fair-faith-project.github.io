@@ -1,5 +1,5 @@
 ---
-title: 安全基準 (Standards) - Fair Faith JP
+title: 安全基準 (Standards)
 description: Fair Faith Protocolが定める3つの核心原則。宗教を「R-18（成人指定）」と定義し、未成年保護、無限責任、相互扶助を徹底する安全基準。
 keywords: 宗教2.0, 安全基準, R-18, 未成年保護, 献金禁止, ガイドライン, 責任論, あるべき姿
 ---
