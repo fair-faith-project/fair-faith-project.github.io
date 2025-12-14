@@ -8,8 +8,8 @@ hide:
 
 # Fair Faith JP
 
-<div align="center">
-  <img src="assets/logo.svg" width="150" alt="Fair Faith JP Logo">
+<div align="center" markdown>
+  ![Fair Faith JP Logo](assets/logo.svg){ width=150 height=150 loading=eager }
   <h2>信仰に確かな安全と責任を。</h2>
   <p>現代社会の宗教組織に潜む「バグ（搾取・依存・暴走）」から<br>個人の尊厳を守るための安全基準プロトコル。</p>
   
