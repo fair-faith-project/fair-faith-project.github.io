@@ -60,7 +60,7 @@ Issueの報告やPull Requestはいつでも歓迎します。
 
 ```bash
 # リポジトリのクローン
-git clone [https://github.com/fair-faith-project/fair-faith-project.github.io.git](https://github.com/fair-faith-project/fair-faith-project.github.io.git)
+git clone https://github.com/fair-faith-project/fair-faith-project.github.io.git
 cd fair-faith-project.github.io
 
 # 依存関係のインストール (画像生成ライブラリ含む)
