@@ -57,7 +57,7 @@
 
 ```bash
 # 1. リポジトリのクローン
-git clone [https://github.com/fair-faith-project/fair-faith-project.github.io.git](https://github.com/fair-faith-project/fair-faith-project.github.io.git)
+git clone https://github.com/fair-faith-project/fair-faith-project.github.io.git
 cd fair-faith-project.github.io
 
 # 2. 依存関係のインストール
