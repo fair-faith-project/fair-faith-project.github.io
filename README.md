@@ -1,8 +1,22 @@
-# Fair Faith Project (JP)
+# Fair Faith JP
 
 [![Publish Site](https://github.com/fair-faith-project/fair-faith-project.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/fair-faith-project/fair-faith-project.github.io/actions/workflows/publish.yml)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/fair-faith-project/fair-faith-project.github.io)](https://github.com/fair-faith-project/fair-faith-project.github.io/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<div align="center">
+  <img src="docs/assets/logo.svg" width="120" alt="Fair Faith JP Logo">
+  <h3>信仰に確かな安全と責任を。<br>現代社会のバグから身を守るための信仰安全基準プロトコル。</h3>
+  
+  <p>
+    <a href="https://fair-faith.org">
+      <img src="https://img.shields.io/badge/Official_Site-fair--faith.org-1a237e?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
+    </a>
+    <a href="https://github.com/fair-faith-project/fair-faith-project.github.io/blob/main/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+    </a>
+  </p>
+</div>
 
 **信仰に確かな安全と責任を。**
 現代社会における「信仰のバグ（脆弱性）」から人々を守るための、オープンソースの安全基準プロトコルとナレッジベースです。
