@@ -16,6 +16,8 @@ theme:
   features:
     - navigation.tabs       # タブ形式のメニュー
     - navigation.top        # 「トップに戻る」ボタン
+    - navigation.instant     # ページ移動を爆速にする
+    - navigation.tracking    # URLを正しく追跡する
     - search.suggest        # 検索予測
     - search.highlight      # 検索結果のハイライト
   palette:
