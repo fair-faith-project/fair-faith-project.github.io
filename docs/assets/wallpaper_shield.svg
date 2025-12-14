@@ -1,35 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
-  <rect width="100%" height="100%" fill="#0a0a0a"/>
-  <defs>
-    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
-      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#1a237e" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3"/>
-
-  <g transform="translate(540, 350)">
-    <rect x="-130" y="-130" width="260" height="260" rx="20" fill="#ffffff"/>
-    <rect x="-140" y="-140" width="280" height="280" rx="25" fill="none" stroke="#1a237e" stroke-width="4"/>
-    
-    <g transform="translate(-100, -100) scale(8)">
-      <path fill="#000000" d="M0 0h7v1H0zM8 0h2v1H8zM11 0h1v1h-1zM13 0h3v1h-3zM17 0h1v1h-1zM19 0h1v1h-1zM21 0h1v1h-1zM23 0h2v1h-2zM0 1h1v1H0zM6 1h1v1H6zM8 1h1v1H8zM10 1h1v1h-1zM12 1h3v1h-3zM16 1h2v1h-2zM21 1h1v1h-1zM24 1h1v1h-1zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h2v1H8zM13 2h2v1h-2zM16 2h1v1h-1zM18 2h2v1h-2zM21 2h1v1h-1zM23 2h2v1h-2zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM8 3h1v1H8zM10 3h2v1h-2zM13 3h2v1h-2zM16 3h2v1h-2zM19 3h1v1h-1zM21 3h1v1h-1zM24 3h1v1h-1zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM8 4h2v1H8zM11 4h2v1h-2zM16 4h1v1h-1zM18 4h2v1h-2zM23 4h2v1h-2zM0 5h1v1H0zM6 5h1v1H6zM8 5h1v1H8zM10 5h1v1h-1zM12 5h2v1h-2zM15 5h1v1h-1zM17 5h1v1h-1zM19 5h1v1h-1zM21 5h3v1h-3zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1h-1zM14 6h2v1h-2zM17 6h3v1h-3zM23 6h1v1h-1zM0 8h4v1H0zM5 8h1v1H5zM7 8h1v1H7zM10 8h1v1h-1zM13 8h1v1h-1zM17 8h1v1h-1zM19 8h1v1h-1zM21 8h3v1h-3zM1 9h2v1H1zM6 9h1v1H6zM8 9h1v1H8zM11 9h2v1h-2zM14 9h2v1h-2zM18 9h1v1h-1zM20 9h2v1h-2zM23 9h1v1h-1zM1 10h1v1H1zM3 10h1v1H3zM5 10h1v1H5zM8 10h1v1H8zM10 10h2v1h-2zM13 10h1v1h-1zM16 10h1v1h-1zM18 10h3v1h-3zM22 10h2v1h-2zM2 11h1v1H2zM4 11h2v1H4zM7 11h1v1H7zM9 11h2v1H9zM12 11h1v1h-1zM14 11h2v1h-2zM17 11h2v1h-2zM21 11h1v1h-1zM23 11h2v1h-2zM2 12h1v1H2zM6 12h3v1H6zM10 12h4v1h-4zM15 12h2v1h-2zM21 12h2v1h-2zM24 12h1v1h-1zM2 13h1v1H2zM4 13h1v1H4zM7 13h1v1H7zM10 13h1v1h-1zM12 13h2v1h-2zM15 13h1v1h-1zM17 13h3v1h-3zM23 13h1v1h-1zM1 14h1v1H1zM3 14h1v1H3zM5 14h1v1H5zM7 14h1v1H7zM9 14h1v1H9zM11 14h1v1h-1zM15 14h1v1h-1zM19 14h1v1h-1zM22 14h2v1h-2zM3 15h1v1H3zM6 15h1v1H6zM8 15h1v1H8zM11 15h2v1h-2zM15 15h2v1h-2zM18 15h1v1h-1zM20 15h2v1h-2zM24 15h1v1h-1zM0 16h1v1H0zM3 16h1v1H3zM5 16h1v1H5zM7 16h3v1H7zM11 16h2v1h-2zM14 16h1v1h-1zM16 16h1v1h-1zM18 16h1v1h-1zM20 16h2v1h-2zM23 16h1v1h-1zM3 17h1v1H3zM5 17h1v1H5zM8 17h2v1H8zM12 17h2v1h-2zM17 17h3v1h-3zM21 17h1v1h-1zM0 18h7v1H0zM8 18h1v1H8zM11 18h1v1h-1zM14 18h1v1h-1zM16 18h3v1h-3zM20 18h2v1h-2zM23 18h1v1h-1zM0 19h1v1H0zM6 19h1v1H6zM9 19h1v1H9zM11 19h1v1h-1zM14 19h3v1h-3zM20 19h3v1h-3zM24 19h1v1h-1zM0 20h1v1H0zM2 20h3v1H2zM6 20h1v1H6zM9 20h1v1H9zM13 20h1v1h-1zM15 20h1v1h-1zM17 20h1v1h-1zM21 20h1v1h-1zM23 20h1v1h-1zM0 21h1v1H0zM2 21h3v1H2zM6 21h1v1H6zM9 21h2v1H9zM12 21h1v1h-1zM15 21h1v1h-1zM18 21h4v1h-4zM23 21h2v1h-2zM0 22h1v1H0zM2 22h3v1H2zM6 22h1v1H6zM8 22h1v1H8zM10 22h2v1h-2zM13 22h1v1h-1zM16 22h1v1h-1zM18 22h1v1h-1zM21 22h2v1h-2zM0 23h1v1H0zM6 23h1v1H6zM8 23h1v1H8zM10 23h2v1h-2zM13 23h2v1h-2zM17 23h1v1h-1zM20 23h2v1h-2zM23 23h2v1h-2zM0 24h7v1H0zM8 24h3v1H8zM12 24h1v1h-1zM17 24h1v1h-1zM22 24h1v1h-1zM24 24h1v1h-1z"/>
-    </g>
-    <text x="0" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#aaaaaa" letter-spacing="2">SCAN FOR OFFICIAL SITE</text>
-  </g>
-
-  <g transform="translate(540, 900)">
-    <path d="M10,0 C10,0 0,50 0,120 C0,190 10,240 10,240 L130,300 L250,240 C250,240 260,190 260,120 C260,50 250,0 250,0 L130,60 L10,0 Z" fill="none" stroke="#ffffff" stroke-width="10" transform="translate(-130, -150)"/>
-    <path d="M10,0 C10,0 0,50 0,120 C0,190 10,240 10,240 L130,300 L250,240 C250,240 260,190 260,120 C260,50 250,0 250,0 L130,60 L10,0 Z" fill="#1a237e" opacity="0.5" transform="translate(-130, -150)"/>
-    <path d="M90,130 L120,160 L180,80" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" transform="translate(-130, -130)"/>
-    
-    <text x="0" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="60" fill="#ffffff" letter-spacing="4">FAIR FAITH</text>
-    <text x="0" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#aaaaaa" letter-spacing="8">PROTOCOL PROTECTED</text>
-    
-    <g transform="translate(0, 500)">
-      <rect x="-400" y="0" width="800" height="200" rx="10" fill="none" stroke="#ff3d00" stroke-width="4"/>
-      <text x="0" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="#ff3d00">WARNING</text>
-      <text x="0" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">SOLICITATION REJECTED</text>
-      <text x="0" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#cccccc">LOG_ID: REFUSAL_AUTO_GENERATED</text>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="1080px" height="1920px" viewBox="0 0 1080 1920" enable-background="new 0 0 1080 1920" xml:space="preserve">
+<pattern  x="119.5" y="1257.5" width="100" height="100" patternUnits="userSpaceOnUse" id="grid" viewBox="0.5 -100.5 100 100" overflow="visible">
+	<g>
+		<polygon fill="none" points="0.5,-0.5 100.5,-0.5 100.5,-100.5 0.5,-100.5 		"/>
+		<path fill="none" stroke="#1A237E" d="M100.5-0.5H0.5v-100"/>
+	</g>
+</pattern>
+<rect fill="#0A0A0A" width="1080" height="1920"/>
+<pattern  id="SVGID_1_" xlink:href="#grid" patternTransform="matrix(1 0 0 -1 -19.5 -15321.0195)">
+</pattern>
+<rect opacity="0.3" fill="url(#SVGID_1_)" enable-background="new    " width="1080" height="1920"/>
+<path fill="#FFFFFF" d="M430,192h220c11.046,0,20,8.954,20,20v220c0,11.046-8.954,20-20,20H430c-11.046,0-20-8.954-20-20V212
+	C410,200.954,418.954,192,430,192z"/>
+<path fill="none" stroke="#1A237E" stroke-width="4" d="M425,182h230c13.807,0,25,11.193,25,25v230c0,13.807-11.193,25-25,25H425
+	c-13.807,0-25-11.193-25-25V207C400,193.193,411.193,182,425,182z"/>
+<text transform="matrix(1 0 0 1 393.9131 501.998)" fill="#AAAAAA" font-family="'ArialMT'" font-size="20" letter-spacing="2">SCAN FOR OFFICIAL SITE</text>
+<text transform="matrix(1 0 0 1 356.6699 1228.0049)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="60" letter-spacing="3">FAIR FAITH</text>
+<text transform="matrix(1 0 0 1 287.978 1298.0049)" fill="#AAAAAA" font-family="'ArialMT'" font-size="30" letter-spacing="7">PROTOCOL PROTECTED</text>
+<g transform="translate(0, 500)">
+	<path fill="none" stroke="#FF3D00" stroke-width="4" d="M150,900h780c5.522,0,10,4.478,10,10v180c0,5.522-4.478,10-10,10H150
+		c-5.523,0-10-4.478-10-10V910C140,904.478,144.477,900,150,900z"/>
+	<text transform="matrix(1 0 0 1 443.3398 960)" fill="#FF3D00" font-family="'Arial-BoldMT'" font-size="40">WARNING</text>
+	<text transform="matrix(1 0 0 1 367.0576 1020)" fill="#FFFFFF" font-family="'ArialMT'" font-size="28">SOLICITATION REJECTED</text>
+	<text transform="matrix(1 0 0 1 313.7168 1060)" fill="#CCCCCC" font-family="'ArialMT'" font-size="24">LOG_ID: REFUSAL_AUTO_GENERATED</text>
+</g>
+<g>
+	<circle fill="#1A237E" cx="540" cy="854.889" r="256.393"/>
+	<g transform="translate(320 320) scale(0.7) translate(-320 -320)">
+		<path fill="#FFFFFF" d="M685.565,904.651h102.557c14.181,0,25.638,11.458,25.638,25.64c0,14.182-11.456,25.64-25.638,25.64
+			h-91.021c-4.164,20.671-18.348,37.737-37.176,45.91v236.123h128.198c14.181,0,25.638,11.458,25.638,25.638
+			c0,14.181-11.456,25.639-25.638,25.639H480.45c-14.182,0-25.64-11.458-25.64-25.639c0-14.18,11.458-25.638,25.64-25.638h128.195
+			V1001.84c-18.828-8.252-33.01-25.318-37.176-45.91H480.45c-14.182,0-25.64-11.458-25.64-25.64c0-14.182,11.458-25.64,25.64-25.64
+			h102.557c11.698-15.543,30.286-25.639,51.278-25.639C655.278,879.012,673.867,889.108,685.565,904.651z M730.112,1135.405H846.13
+			l-58.008-99.512L730.112,1135.405z M788.122,1212.322c-50.399,0-92.302-27.241-100.954-63.216
+			c-2.084-8.813,0.801-17.868,5.367-25.72l76.278-130.759c4.004-6.891,11.375-11.057,19.309-11.057
+			c7.931,0,15.303,4.247,19.307,11.057l76.278,130.759c4.568,7.852,7.451,16.906,5.367,25.72
+			C880.421,1185.001,838.518,1212.322,788.122,1212.322z M479.489,1035.893l-58.008,99.512h116.097L479.489,1035.893z
+			 M378.614,1149.105c-2.084-8.813,0.801-17.868,5.368-25.72l76.277-130.759c4.007-6.891,11.378-11.057,19.309-11.057
+			c7.932,0,15.304,4.247,19.31,11.057l76.277,130.759c4.566,7.852,7.451,16.906,5.368,25.72
+			c-8.654,35.896-50.557,63.216-100.955,63.216C429.171,1212.322,387.267,1185.081,378.614,1149.105z"/>
+	</g>
+</g>
+<path fill="#FFFFFF" d="M419.189,199.188h241.621v241.62H419.189V199.188z"/>
+<path stroke="#000000" stroke-width="11.5057" d="M419.189,204.941h80.54 M511.235,204.941h23.012 M557.259,204.941h11.506
+	 M580.271,204.941h80.54 M419.189,216.447h11.506 M488.224,216.447h11.506 M557.259,216.447h11.506 M580.271,216.447h11.505
+	 M649.305,216.447h11.506 M419.189,227.953h11.506 M442.201,227.953h34.518 M488.224,227.953h11.506 M511.235,227.953h11.506
+	 M534.247,227.953h34.518 M580.271,227.953h11.505 M603.281,227.953h34.518 M649.305,227.953h11.506 M419.189,239.458h11.506
+	 M442.201,239.458h34.518 M488.224,239.458h11.506 M511.235,239.458h23.012 M557.259,239.458h11.506 M580.271,239.458h11.505
+	 M603.281,239.458h34.518 M649.305,239.458h11.506 M419.189,250.964h11.506 M442.201,250.964h34.518 M488.224,250.964h11.506
+	 M511.235,250.964h34.518 M557.259,250.964h11.506 M580.271,250.964h11.505 M603.281,250.964h34.518 M649.305,250.964h11.506
+	 M419.189,262.47h11.506 M488.224,262.47h11.506 M580.271,262.47h11.505 M649.305,262.47h11.506 M419.189,273.976h80.54
+	 M511.235,273.976h11.506 M534.247,273.976h11.506 M557.259,273.976h11.506 M580.271,273.976h80.54 M522.741,285.481h23.012
+	 M419.189,296.987h46.023 M488.224,296.987h11.506 M511.235,296.987h11.506 M534.247,296.987h23.012 M568.765,296.987h11.506
+	 M603.281,296.987h34.518 M649.305,296.987h11.506 M419.189,308.493h11.506 M453.707,308.493h23.012 M499.729,308.493h23.012
+	 M534.247,308.493h23.012 M580.271,308.493h34.517 M649.305,308.493h11.506 M488.224,319.999h11.506 M511.235,319.999h11.506
+	 M557.259,319.999h11.506 M580.271,319.999h23.011 M614.787,319.999h23.012 M419.189,331.504h11.506 M442.201,331.504h11.506
+	 M465.213,331.504h23.011 M522.741,331.504h23.012 M557.259,331.504h69.034 M419.189,343.01h23.012 M453.707,343.01h69.034
+	 M545.753,343.01h11.506 M568.765,343.01h23.011 M603.281,343.01h11.506 M511.235,354.516h11.506 M534.247,354.516h46.023
+	 M603.281,354.516h11.506 M637.799,354.516h11.506 M419.189,366.021h80.54 M534.247,366.021h11.506 M557.259,366.021h11.506
+	 M614.787,366.021h11.506 M637.799,366.021h11.506 M419.189,377.527h11.506 M488.224,377.527h11.506 M534.247,377.527h11.506
+	 M591.775,377.527h69.035 M419.189,389.033h11.506 M442.201,389.033h34.518 M488.224,389.033h11.506 M522.741,389.033h11.506
+	 M545.753,389.033h11.506 M568.765,389.033h23.011 M614.787,389.033h11.506 M419.189,400.539h11.506 M442.201,400.539h34.518
+	 M488.224,400.539h11.506 M511.235,400.539h46.023 M568.765,400.539h11.506 M591.775,400.539h34.518 M637.799,400.539h11.506
+	 M419.189,412.045h11.506 M442.201,412.045h34.518 M488.224,412.045h11.506 M511.235,412.045h57.529 M603.281,412.045h11.506
+	 M419.189,423.55h11.506 M488.224,423.55h11.506 M511.235,423.55h23.012 M545.753,423.55h34.518 M591.775,423.55h11.506
+	 M614.787,423.55h11.506 M419.189,435.056h80.54 M511.235,435.056h11.506 M534.247,435.056h11.506 M557.259,435.056h46.022
+	 M614.787,435.056h34.518"/>
 </svg>
