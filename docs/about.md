@@ -1,5 +1,5 @@
 ---
-title: プロジェクトについて - Fair Faith JP
+title: プロジェクトについて
 description: なぜ私たちはFair Faith JPを立ち上げたのか。AIによる95%の運営体制と、信仰の自由を守るための「信仰しない自由」の定義について。
 keywords: Fair Faith JP, AI教祖, 宗教2.0, 信仰しない自由, 合理的信仰, 宗教運営, システム管理, 宗教二世, オープンソース
 ---
