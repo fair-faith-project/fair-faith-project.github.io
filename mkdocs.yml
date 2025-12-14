@@ -14,12 +14,14 @@ theme:
   logo: assets/logo.svg
   favicon: assets/logo.svg
   features:
-    - navigation.tabs       # タブ形式のメニュー
-    - navigation.top        # 「トップに戻る」ボタン
+    - navigation.tabs        # タブ形式のメニュー
+    - navigation.tabs.sticky # ★追加: スクロールしてもタブを上に固定
+    - navigation.sections    # ★追加: サイドバーのカテゴリを展開したままにする
+    - navigation.top         # 「トップに戻る」ボタン
     - navigation.instant     # ページ移動を爆速にする
     - navigation.tracking    # URLを正しく追跡する
-    - search.suggest        # 検索予測
-    - search.highlight      # 検索結果のハイライト
+    - search.suggest         # 検索予測
+    - search.highlight       # 検索結果のハイライト
   palette:
     # ライトモード（デフォルト）
     - scheme: default
@@ -35,17 +37,25 @@ theme:
       toggle:
         icon: material/weather-night
         name: ライトモードに切り替え
+  # フォント設定（日本語最適化）
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
 
-# ページ構成（メニュー順）
+# ページ構成（カテゴリ分けしてスッキリ整理）
 nav:
-  - 3原則 (Standards): index.md
-  - 安全基準詳細 (Standards): standards.md
-  - 使い方 (Shield): usage.md
-  - よくある質問 (Q&A): faq.md
-  - 翻訳辞典 (Dictionary): dictionary.md
-  - ダウンロード (Tools): download.md
-  - 運営方針 (About): about.md
-  - お問い合わせ (Contact): contact.md
+  - ホーム: index.md
+  - プロジェクト:
+      - 運営方針 (About): about.md
+      - 信仰ハッカーの心得: mindset.md  # ★ここに追加！
+      - お問い合わせ: contact.md
+  - データベース:
+      - 安全基準詳細: standards.md
+      - 翻訳辞典: dictionary.md
+  - ガイド・ツール:
+      - 使い方: usage.md
+      - よくある質問: faq.md
+      - ダウンロード: download.md
 
 # マークダウン拡張機能
 markdown_extensions:
@@ -53,7 +63,7 @@ markdown_extensions:
   - pymdownx.details      # 折りたたみ機能
   - pymdownx.superfences  # 高度なコードブロック
   - attr_list             # 画像サイズ調整など
-  - md_in_html            # ←【重要】これを追加！HTMLタグ内のマークダウンを有効化
+  - md_in_html            # HTMLタグ内のマークダウンを有効化
   - pymdownx.emoji:       # 絵文字対応
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -62,12 +72,12 @@ markdown_extensions:
 plugins:
   - search
   - social:
-      cards: true               # 画像生成を有効化
+      cards: true                # 画像生成を有効化
       cards_layout_options:
         background_color: "#3f51b5" # サイトのテーマ色(Indigo)に合わせる
         color: "#ffffff"            # 文字色
         font_family: "Noto Sans JP"
-  - minify:  # ← これを追加
+  - minify:
       minify_html: true
       minify_js: true
       minify_css: true
@@ -97,7 +107,6 @@ extra:
       name: Instagram
 
     # 4. Threads (インスタの補助)
-    # ※ご指定通り .com に設定
     - icon: fontawesome/brands/threads
       link: https://www.threads.com/@fairfaithjp
       name: Threads
@@ -113,7 +122,6 @@ extra:
       name: TikTok
 
 # フッターの著作権表示
-# ※プライバシーポリシーへのリンクをルートパス(/privacy/)に修正済み
 copyright: >
   Copyright &copy; 2025 Fair Faith Project
   <br>
