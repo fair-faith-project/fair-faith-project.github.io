@@ -1,5 +1,5 @@
 ---
-title: プライバシーポリシー - Fair Faith JP
+title: プライバシーポリシー
 description: Fair Faith JPにおける個人情報の取り扱い、免責事項、著作権についての方針を定めたプライバシーポリシーです。
 ---
 
