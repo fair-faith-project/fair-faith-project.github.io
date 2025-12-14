@@ -15,13 +15,12 @@ jobs:
         with:
           python-version: 3.x
 
-      # ↓↓↓ ここを修正（日本語フォントを追加インストール）
+      # ↓↓↓ 修正箇所
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev zlib1g-dev
-          sudo apt-get install -y fonts-noto-cjk
-      # ↑↑↑ ここまで
+          sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev zlib1g-dev fonts-ipafont-gothic
+      # ↑↑↑ fonts-ipafont-gothic に変えました
 
       - name: Install dependencies
         run: pip install -r requirements.txt
