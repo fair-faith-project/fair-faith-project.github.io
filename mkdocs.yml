@@ -61,7 +61,11 @@ markdown_extensions:
 # プラグイン設定
 plugins:
   - search
-  - social # OGP画像（SNSシェア時のカード）を自動生成
+  - social:
+      cards: true               # 画像生成を有効化
+      cards_layout_options:
+        background_color: "#3f51b5" # サイトのテーマ色(Indigo)に合わせる
+        color: "#ffffff"            # 文字色
   - minify:  # ← これを追加
       minify_html: true
       minify_js: true
