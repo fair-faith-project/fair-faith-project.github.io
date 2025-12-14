@@ -37,6 +37,7 @@ theme:
 # ページ構成（メニュー順）
 nav:
   - 3原則 (Standards): index.md
+  - 安全基準詳細 (Standards): standards.md
   - 使い方 (Shield): usage.md
   - よくある質問 (Q&A): faq.md
   - 翻訳辞典 (Dictionary): dictionary.md
