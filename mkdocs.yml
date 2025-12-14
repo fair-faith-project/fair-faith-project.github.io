@@ -60,7 +60,11 @@ markdown_extensions:
 plugins:
   - search
   - social # OGP画像（SNSシェア時のカード）を自動生成
-
+  - minify:  # ← これを追加
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      
 # 追加設定（アクセス解析・SNSリンク）
 extra:
   # Google Analytics 4
