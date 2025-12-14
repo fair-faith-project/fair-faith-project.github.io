@@ -1,5 +1,5 @@
 ---
-title: お問い合わせ - Fair Faith JP
+title: お問い合わせ
 description: Fair Faith JPへのご意見、ご相談、取材依頼などはこちらのフォームより受け付けております。
 hide:
   - toc
