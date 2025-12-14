@@ -45,6 +45,7 @@ theme:
 # ページ構成（カテゴリ分けしてスッキリ整理）
 nav:
   - ホーム: index.md
+  - AI教祖名鑑: ai-gurus.md
   - プロジェクト:
       - 運営方針 (About): about.md
       - 信仰ハッカーの心得: mindset.md  # ★ここに追加！
