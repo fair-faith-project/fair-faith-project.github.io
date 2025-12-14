@@ -1,5 +1,5 @@
 ---
-title: デジタルお守り (Download) - Fair Faith JP
+title: デジタルお守り (Download)
 description: 宗教勧誘を無言で断るためのスマホ用壁紙（デジタルお守り）を配布しています。Fair Faith Protocol準拠を示す証明書としてご利用ください。
 keywords: デジタルお守り, 宗教勧誘, 断り方, 壁紙, 待ち受け, スマホ画像, 魔除け, 厄除け, カルト対策, 無料ダウンロード, 撃退
 ---
