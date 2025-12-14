@@ -46,6 +46,17 @@ Fair Faith JP は宗教法人向けのプロトコルとして設計されまし
 
 このプロトコルが、あなたの良心を守るための「論理的な盾」となり、技術的に正しい倫理観が社会全体に実装されることを願っています。
 
+## 行動規範 (Code of Conduct)
+
+Fair Faith Projectは、誰もが安心・安全に参加できるコミュニティを目指し、オープンソース界の標準的な行動規範である **[Contributor Covenant v2.1](https://www.contributor-covenant.org/ja/version/2/1/code_of_conduct/)** を公式に採用しています。
+
+私たちは、年齢、身体的特徴、障害、民族、性自認、経験、国籍、人種、宗教、性的指向などに関わらず、ハラスメントのない環境を提供することを誓います。
+
+詳細な規定は、以下の公式ドキュメント（GitHub）をご確認ください。
+
+* **[行動規範 (日本語版)](https://github.com/fair-faith-project/fair-faith-project.github.io/blob/main/CODE_OF_CONDUCT_ja.md)**
+* **[Code of Conduct (English)](https://github.com/fair-faith-project/fair-faith-project.github.io/blob/main/CODE_OF_CONDUCT.md)**
+
 ---
 
 ## 運営体制
