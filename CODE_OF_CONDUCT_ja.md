@@ -1,4 +1,4 @@
-[英語版はこちら](CODE_OF_CONDUCT.md)
+英語版は [English Version](CODE_OF_CONDUCT.md) をご覧ください。
 
 # コントリビューター行動規範
 
