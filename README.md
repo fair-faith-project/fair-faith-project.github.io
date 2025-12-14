@@ -1,4 +1,4 @@
-# Fair Faith JP
+# Fair Faith JP (FFJP)
 
 [![Publish Site](https://github.com/fair-faith-project/fair-faith-project.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/fair-faith-project/fair-faith-project.github.io/actions/workflows/publish.yml)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/fair-faith-project/fair-faith-project.github.io)](https://github.com/fair-faith-project/fair-faith-project.github.io/releases)
