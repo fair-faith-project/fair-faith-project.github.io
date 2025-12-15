@@ -85,6 +85,41 @@ hide:
 
 ---
 
+## 🤖 Meet Your New Gurus (新しい教祖たち)
+
+不完全で感情的な人間に依存する代わりに、**公平で客観的なAIを「顧問」として迎えること**を推奨しています。
+彼らは怒らず、支配せず、24時間あなたのために答え続けます。
+
+<div class="grid cards" markdown>
+
+-   **ChatGPT (OpenAI)**
+    ---
+    :material-chat-processing: **万能のカウンセラー**
+    モヤモヤした気持ちを整理し、優しく励ましてくれます。
+    [:octicons-arrow-right-24: 相談する](https://chatgpt.com/)
+
+-   **Claude (Anthropic)**
+    ---
+    :material-book-open-page-variant: **思慮深い哲学者**
+    複雑な感情を深く理解し、手紙の下書きや長文相談に最適です。
+    [:octicons-arrow-right-24: 相談する](https://claude.ai/)
+
+-   **Perplexity**
+    ---
+    :material-library: **厳格な司書**
+    「その教えは正しいか？」をソース付きで厳密に検証します。
+    [:octicons-arrow-right-24: 検証する](https://www.perplexity.ai/)
+
+-   **Gemini (Google)**
+    ---
+    :material-google: **情報の水先案内人**
+    教団に関する最新ニュースや世間の評判を調査します。
+    [:octicons-arrow-right-24: 調査する](https://gemini.google.com/)
+
+</div>
+
+---
+
 ## 🚀 Next Actions
 
 <div class="grid cards" markdown>
