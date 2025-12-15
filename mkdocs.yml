@@ -10,6 +10,7 @@ repo_name: Fair Faith Project
 # テーマ設定
 theme:
   name: material
+  custom_dir: overrides
   language: ja
   logo: assets/logo.svg
   favicon: assets/logo.svg
@@ -121,6 +122,9 @@ extra:
     - icon: fontawesome/brands/tiktok
       link: https://www.tiktok.com/@fairfaithjp
       name: TikTok
+
+extra_css:
+  - stylesheets/extra.css
 
 # フッターの著作権表示
 copyright: >

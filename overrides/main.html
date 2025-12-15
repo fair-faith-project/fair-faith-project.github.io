@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  {{ super() }}
+
+  <div class="md-footer-sitemap">
+    <div class="md-footer-sitemap__inner">
+      
+      {% for item in nav %}
+        <div class="md-footer-sitemap__column">
+          <h3>{{ item.title }}</h3>
+          
+          <ul>
+            {% if item.children %}
+              {% for child in item.children %}
+                <li>
+                  <a href="{{ child.url | url }}">{{ child.title }}</a>
+                </li>
+              {% endfor %}
+            
+            {% else %}
+              <li>
+                <a href="{{ item.url | url }}">{{ item.title }}</a>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+{% endblock %}
